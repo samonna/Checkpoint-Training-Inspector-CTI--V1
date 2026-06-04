@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local data and generated outputs — do not commit model checkpoints
+sample_training_checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.bin
+*.zip
+
+# App export files
+*.csv
+*.html
+
+# Keep source assets
+!logo.png
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Packaging and distribution
+build/
+dist/
+*.egg-info/
+MANIFEST
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Claude Code (local AI assistant settings — not for version control)
+.claude/
